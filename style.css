@@ -288,15 +288,15 @@ nav {
     height: 9rem;
 
     position: absolute;
-    top: 2rem;
+    /* top: 2rem;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.7);
     padding: 1rem;
     width: 90%;
     text-align: center;
-    border-radius: 8px;
-
+    border-radius: 8px; */
+    */
 }
 
 nav a {
