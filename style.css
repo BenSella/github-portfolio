@@ -40,18 +40,28 @@
 
     .projects-box,
     .mini-projects-box,
-    .automation-tests-box,
-    .about-me-box {
+    .automation-tests-box {
         flex-direction: column;
         /* Stack elements vertically */
         align-items: center;
     }
 
+    .about-me-box {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center-align elements */
+        padding: 0 2rem;
+        /* Add padding to the sides for better spacing */
+    }
+
     .about-me-box p {
-        max-width: 80%;
-        /* Increase max width to span more of the screen */
         font-size: 1.8rem;
-        /* Adjust font size for better readability */
+        /* Smaller font size for readability */
+        line-height: 1.5;
+        /* Improve spacing between lines */
+        max-width: 90%;
+        /* Limit the text width to fit better on small screens */
     }
 
     header {
