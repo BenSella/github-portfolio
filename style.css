@@ -47,6 +47,13 @@
         align-items: center;
     }
 
+    .about-me-box p {
+        max-width: 80%;
+        /* Increase max width to span more of the screen */
+        font-size: 1.8rem;
+        /* Adjust font size for better readability */
+    }
+
     header {
         height: 70vh;
         /* Adjust the height for tablets */
