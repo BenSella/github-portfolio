@@ -45,7 +45,6 @@
         flex-direction: column;
         /* Stack elements vertically */
         align-items: center;
-
     }
 
     header {
@@ -79,13 +78,22 @@
     }
 
     nav {
+        position: absolute;
         flex-direction: column;
         /* Stack navigation links */
         align-items: center;
         gap: 1rem;
         /* Reduce gap between navigation items */
-    }
 
+        top: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1rem;
+        width: 90%;
+        text-align: center;
+        border-radius: 8px;
+    }
 
     .btn {
         width: 100%;
@@ -280,30 +288,17 @@ header .row {
 }
 
 nav {
-
     display: flex;
     justify-content: flex-end;
     gap: 6rem;
     align-items: center;
     height: 9rem;
 
-    position: absolute;
-    /* top: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 1rem;
-    width: 90%;
-    text-align: center;
-    border-radius: 8px; */
-    */
 }
 
 nav a {
-    display: block;
     position: relative;
     font-size: 2.2rem;
-    padding: 0.5rem 0;
     /* Adjust font size as needed */
     text-decoration: none;
     color: var(--white);
@@ -498,4 +493,9 @@ nav a:hover::after {
     /* Show the text when hovered */
     max-height: 500px;
     /* Control how much space the text takes (adjust to your content) */
+}
+
+nav a {
+    /*the top array selectors*/
+    font-size: 2.2rem;
 }
